@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Hogwards
 {
-    internal class Groupe
+    public class Groupe
     {
         public int Id { get; set; }
         public string Name { get; set; }

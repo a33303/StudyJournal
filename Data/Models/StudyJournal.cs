@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Hogwards
-{ 
-    internal class StudyJournal
+{
+    public class StudyJournal
     {
         public int Id { get; set; }
         public string Name { get; set; }

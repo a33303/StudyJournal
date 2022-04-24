@@ -631,6 +631,20 @@
             "rid": "win"
           }
         }
+      },
+      "Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data.dll": {}
+        }
       }
     }
   },
@@ -1850,11 +1864,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Data/1.0.0": {
+      "type": "project",
+      "path": "../Data/Data.csproj",
+      "msbuildProject": "../Data/Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.3",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.3"
     ]
@@ -1865,11 +1886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a3330\\Source\\Repos\\StudyJournal\\HogwardsS\\HogwardsS.csproj",
+      "projectUniqueName": "C:\\Users\\a3330\\source\\repos\\StudyJournal\\HogwardsS\\HogwardsS.csproj",
       "projectName": "HogwardsS",
-      "projectPath": "C:\\Users\\a3330\\Source\\Repos\\StudyJournal\\HogwardsS\\HogwardsS.csproj",
+      "projectPath": "C:\\Users\\a3330\\source\\repos\\StudyJournal\\HogwardsS\\HogwardsS.csproj",
       "packagesPath": "C:\\Users\\a3330\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a3330\\Source\\Repos\\StudyJournal\\HogwardsS\\obj\\",
+      "outputPath": "C:\\Users\\a3330\\source\\repos\\StudyJournal\\HogwardsS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\a3330\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1885,7 +1906,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\a3330\\source\\repos\\StudyJournal\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\a3330\\source\\repos\\StudyJournal\\Data\\Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1899,6 +1924,12 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.3, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.3, )"
           },

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hogwards
 {
-    internal class StudyContext : DbContext
+    public class StudyContext : DbContext
     {
         public DbSet <StudyPlan> StudyPlans { get; set; }
         public DbSet <StudyJournal> StudyJournals { get; set; }

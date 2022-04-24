@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hogwards
 {
-    internal class StudyPlan
+    public class StudyPlan
     {
         public int Id { get; set; }
         public string Name { get; set; }
