@@ -126,15 +126,6 @@ C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.En
 C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -174,3 +165,5 @@ C:\Users\a3330\source\repos\StudyJournal\HogwardsS\obj\Debug\net6.0\HogwardsS.ge
 C:\Users\a3330\source\repos\StudyJournal\HogwardsS\obj\Debug\net6.0\ref\HogwardsS.dll
 C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Data.dll
 C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Data.pdb
+C:\Users\a3330\Source\Repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
+C:\Users\a3330\source\repos\StudyJournal\HogwardsS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
