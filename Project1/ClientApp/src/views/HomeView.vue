@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Hello, guys and girls! It's Hogwards!</h1>
+    <HelloWorld />
   </div>
 </template>
 
