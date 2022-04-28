@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore;
 
 namespace Hogwards
 {
@@ -7,7 +8,10 @@ namespace Hogwards
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Hogwards!");
-            StudyContext db = new StudyContext();
+            var contextOptions = new DbContextOptionsBuilder<StudyContext>()
+                //.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Hogwards;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False")
+                .Options;
+            StudyContext db = new StudyContext(contextOptions);
 
             var plan1 = new StudyJournal
             {
