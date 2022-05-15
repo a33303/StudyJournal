@@ -31,23 +31,12 @@ namespace StudyRowi.Controllers
         }
 
         // Post: /api/students
-            /* _payload_
-            {
-                "firstName": "Max",
-                "lastName": "Petrov",
-                "patronymic": null, //string
-                "dateReceipt": 0,
-                "formStudy": null, //string
-                "groupeId": 1,
-                "groupe": null //string
-            }
-            */
         [HttpPost]
         public ActionResult<Student> PostStudent(Student student)
         {
             _context.Students.Add(student);
             _context.SaveChanges();
-            return CreatedAtAction("GetStudents", new Student { Id = student.Id }, student);
+            return CreatedAtAction(nameof(this.GetStudentItem), new Student { Id = student.Id }, student);
         }
 
          // Put: /api/students/n

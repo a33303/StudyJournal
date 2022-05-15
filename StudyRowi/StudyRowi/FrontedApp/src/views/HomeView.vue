@@ -1,9 +1,9 @@
 <script>
-import TheWelcome from "@/components/TheWelcome.vue";
+import HomePage from "../components/HomePage.vue";
 </script>
 
 <template>
   <main class="m-auto bg-gray-200 w-2/5 rounded-md shadow-sm my-5">
-    <TheWelcome />
+    <HomePage />
   </main>
 </template>

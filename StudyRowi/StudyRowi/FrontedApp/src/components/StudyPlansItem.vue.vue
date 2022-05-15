@@ -19,7 +19,16 @@ export default {
       formExam: "",
     };
   },
-  props: ["data", "popup", "name", "speciality", "discipline", "semestr", "studyTime", "formExam"],
+  props: [
+    "data",
+    "popup",
+    "name",
+    "speciality",
+    "discipline",
+    "semestr",
+    "studyTime",
+    "formExam",
+  ],
   emits: ["modalClose", "studyPlansRefresh"],
   methods: {
     async save() {
@@ -30,7 +39,7 @@ export default {
           discipline: this.discipline,
           semestr: this.semestr,
           studyTime: this.studyTime,
-          formExam: this.formExam
+          formExam: this.formExam,
         });
 
         if (response.data) {
@@ -45,7 +54,7 @@ export default {
           discipline: this.discipline,
           semestr: this.semestr,
           studyTime: this.studyTime,
-          formExam: this.formExam
+          formExam: this.formExam,
         });
 
         //if (response.data) {
@@ -76,9 +85,9 @@ export default {
 </script>
 
 <template>
- <div>
-   {{ this.StudyPlans }}
- </div>
+  <div>
+    {{ this.StudyPlans }}
+  </div>
 </template>
 
 <style scoped></style>

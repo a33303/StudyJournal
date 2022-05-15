@@ -26,7 +26,8 @@ namespace StudyRowi
                 options.AddDefaultPolicy(
                     policy =>
                     {
-                        policy.WithOrigins("http://localhost:5002").AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+                        //policy.WithOrigins("http://localhost:5002").AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+                        policy.WithOrigins("http://localhost:3000").AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
                     });
             });
 
@@ -41,7 +42,8 @@ namespace StudyRowi
             app.UseCors(
                 policy =>
                     {
-                        policy.WithOrigins("http://localhost:5002").AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+                        //policy.WithOrigins("http://localhost:5002").AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+                        policy.WithOrigins("http://localhost:3000").AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
                     });
             app.UseMvc();
 

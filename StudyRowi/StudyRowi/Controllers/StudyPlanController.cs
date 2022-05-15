@@ -36,7 +36,7 @@ namespace StudyRowi.Controllers
         {
             _context.StudyPlans.Add(StudyPlan);
             _context.SaveChanges();
-            return CreatedAtAction("GetStudents", new StudyPlan { Id = StudyPlan.Id }, StudyPlan);
+            return CreatedAtAction(nameof(this.GetStudyPlanItem), new StudyPlan { Id = StudyPlan.Id }, StudyPlan);
         }
 
          // Put: /api/StudyPlans/n

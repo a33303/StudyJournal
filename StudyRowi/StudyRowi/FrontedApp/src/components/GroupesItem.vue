@@ -7,9 +7,10 @@ export default {
     return {
       id: 0,
       name: "",
+      student: "",
     };
   },
-  props: ["data", "popup"],
+  props: ["data", "popup", "students"],
   emits: ["modalClose", "groupesRefresh"],
   methods: {
     async save() {
@@ -45,10 +46,6 @@ export default {
   mounted() {
     this.popupCreateItem = this.popup ?? 0;
     this.isSingleItem = this.$route.params.id ?? false;
-    const textInputOptions = ref({
-      format: "MM/dd/yyyy",
-    });
-
     this.id = this.data.id ?? 0;
     this.name = this.data.name ?? "";
   },
@@ -80,51 +77,61 @@ export default {
           <h3 class="text-lg font-medium leading-6 text-gray-900" v-else>
             <span>Create New Groupe</span>
           </h3>
-          <p class="mt-1 text-sm text-gray-600">Fill the Information</p>
+          <p class="mt-1 text-sm text-gray-600">Профиль</p>
         </div>
       </div>
       <div class="mt-5 md:mt-0 md:col-span-2">
-        <form method="POST"  v-if="this.isSingleItem || this.popup">
+        <form method="POST" v-if="this.isSingleItem || this.popup">
           <input
-          type="text"
-          name="name"
-          id="name"
-          class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md" 
-          placeholder="Наименование группы"
-          v-model="this.name"
+            type="text"
+            name="name"
+            id="name"
+            class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md"
+            placeholder="Наименование группы"
+            v-model="this.name"
           />
-          <br>
-          <ul v-for="student in this.students"
-          :key="student.id"
-          :value="student.id">
+          <br />
+          <ul
+            v-for="student in this.students"
+            :key="student.id"
+            :value="student.id"
+          >
             <li>{{ this.student.id }}</li>
           </ul>
           <button
-          type="submit"
-          v-on:click.prevent="save"
-          class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            type="submit"
+            v-on:click.prevent="save"
+            class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             Save
           </button>
         </form>
-        <div v-else class="details flex justify-center width-50 text-left rounded-lg p-6 bg-white ring-1 ring-slate-700/5 shadow-lg space-y-3 hover:bg-sky-50 hover:ring-sky-50">
-            <table class="min-w-full" >
-              <tbody>
-                <tr class="odd:bg-white even:bg-slate-100">
-                  <td class="px-6 py-3 text-center text-sm font-medium text-slate-900">
-                    {{ name }}
-                  </td>
-                  <td class="px-6 py-3 text-center text-sm font-medium text-slate-900">
-                    <a
-                      :href="`/groupes/${this.id}`"
-                      class="text-blue-500 hover:text-blue-900"
-                      > Edit Information</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div> 
+        <div
+          v-else
+          class="details flex justify-center width-50 text-left rounded-lg p-6 bg-white ring-1 ring-slate-700/5 shadow-lg space-y-3 hover:bg-sky-50 hover:ring-sky-50"
+        >
+          <table class="min-w-full">
+            <tbody>
+              <tr class="odd:bg-white even:bg-slate-100">
+                <td
+                  class="px-6 py-3 text-center text-sm font-medium text-slate-900"
+                >
+                  {{ name }}
+                </td>
+                <td
+                  class="px-6 py-3 text-center text-sm font-medium text-slate-900"
+                >
+                  <a
+                    :href="`/groupes/${this.id}`"
+                    class="text-blue-500 hover:text-blue-900"
+                  >
+                    Edit Information</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>

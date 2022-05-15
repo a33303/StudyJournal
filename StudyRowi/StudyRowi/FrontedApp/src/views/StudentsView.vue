@@ -9,9 +9,11 @@ export default {
     return {
       date: "",
       students: [],
+      groupes: [],
+      filterGroupes: 0,
+      sortedGroupes: [],
       errors: [],
       newStudent: 0,
-      // TODO groupes: []
     };
   },
   props: ["id"],
@@ -22,7 +24,7 @@ export default {
   methods: {
     init() {
       this.getStudents();
-      // TODO this.getGroupes();
+      this.getGroupes();
     },
     dateChanged() {
       return this.date;
@@ -30,19 +32,42 @@ export default {
     modalClose() {
       this.newStudent = 0;
     },
-    // TODO getGroupes() {},
+    filterStudentsByGroupe() {
+     let sortedGroupes = this.students.filter(
+          (student) =>
+            (student.groupeId == this.filterGroupes )  );
+            this.sortedGroupes = sortedGroupes;
+    console.log(sortedGroupes);
+    },
+
+    ClearfilterStudentsByGroupe() {
+       let sortedGroupes = this.students.remove(
+         this.students = response.data
+       );
+       this.sortedGroupes = sortedGroupes;
+    },
     getStudents() {
       console.log("reftrests");
       HTTP.get(`/api/students`)
         .then((response) => {
           this.students = response.data;
+          console.log(this.students);
           return this.students;
         })
         .catch((e) => {
           this.errors.push(e);
         });
     },
-    getVisitById() {},
+    getGroupes() {
+      HTTP.get(`/api/groupes`)
+        .then((response) => {
+          this.groupes = response.data;
+          return this.groupes;
+        })
+        .catch((e) => {
+          this.errors.push(e);
+        });
+    },
   },
 };
 </script>
@@ -50,26 +75,134 @@ export default {
 <template>
   <div>
     <div class="details flex justify-center">
-      <a href="#" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500" @click="this.newStudent = 1">
-      <div class="flex items-center space-x-3">
-        <img src="https://img.icons8.com/nolan/64/add-to-favorites.png"/>
-        <h3 class="text-slate-900 group-hover:text-white text-sm font-semibold">New Student</h3>
-      </div>
-      <p class="text-slate-500 group-hover:text-white text-sm">Create a new student from a Hogwards.</p>
-      </a>  
+      <a
+        href="#"
+        class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500"
+        @click="this.newStudent = 1"
+      >
+        <div class="flex items-center space-x-3">
+          <img src="https://img.icons8.com/nolan/64/add-to-favorites.png" />
+          <h3
+            class="text-slate-900 group-hover:text-white text-sm font-semibold"
+          >
+            Новый Студент
+          </h3>
+        </div>
+        <p class="text-slate-500 group-hover:text-white text-sm">
+          Создайте нового студента в Хогвардс.
+        </p>
+      </a>
     </div>
-    <br>  
+    <br>
+    <div name="filter" class="col-span-6 sm:col-span-3">
+      <label for="country" class="block text-sm font-medium text-gray-700">Выберите группу для фильтрации</label>
+      <select 
+      id="groupeFilter" 
+      name="groupeFilter" 
+      v-model="this.filterGroupes"
+      class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+      >
+        <option
+          v-for="groupe of this.groupes"
+          :key="groupe.id"
+          :value="groupe.id"
+          :selected="groupe.id == this.groupe"
+        >
+          {{ groupe.name }}
+        </option>
+      </select>
+    </div>
+    <br>
+    <div>
+       <button 
+       class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+      @click.prevent="this.filterStudentsByGroupe()"
+      >Поиск 
+      </button>
+      <button 
+       class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-yellow-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+      @click.prevent="this.ClearfilterStudentsByGroupe()"
+      > Очистить 
+      </button>
+    </div>
+    <br />
+    <table class="w-full">
+        <tr class="odd:bg-white even:bg-slate-100">
+                <td
+                  class="px-6 py-3  text-sm font-medium text-slate-900  w-1/6"
+                >
+                  Фамилия
+                </td>
+                <td
+                  class="px-6 py-3  text-sm font-medium text-slate-900  w-1/6"
+                >
+                  Имя
+                </td>
+                <td
+                  class="px-6 py-3  text-sm font-medium text-slate-900  w-1/6"
+                >
+                  Отчество
+                </td>
+                <td
+                  class="px-6 py-3  text-sm font-medium text-slate-900  w-1/6"
+                >
+                  Форма обучения
+                </td>
+                <td
+                  class="px-6 py-3  text-sm font-medium text-slate-900  w-1/6"
+                >
+                  Группа
+                </td>
+                <td
+                  class="px-6 py-3  text-sm font-medium text-slate-900  w-1/6"
+                >
+                  Дата поступления
+                </td>
+                <td
+                  class="px-6 py-3  text-sm font-medium text-slate-900  w-1/6"
+                >
+                  Учебный журнал
+                </td>
+                <td
+                  class="px-6 py-3  text-sm font-medium text-slate-900  w-1/6"
+                >
+                  Карточка студента
+                </td>
+              </tr>
+    </table>
+    
     <div class="flex flex-col" v-if="!this.$route.params.id">
       <StudentsItem
         v-for="student of this.students"
         :key="student.id"
         :data="student"
+        :groupes="this.groupes"
+        :formStudy="this.formStudy"
+        @modalClose="this.modalClose()"
+        @studentsRefresh="this.getStudents()"
+      />
+    </div>
+    <div class="flex flex-col" v-else-if="this.sortedGroupes">
+      <StudentsItem
+        v-for="student of this.sortedGroupes"
+        :key="student.id"
+        :data="student"
+        :groupes="this.groupes"
+        :formStudy="this.formStudy"
+        @modalClose="this.modalClose()"
+        @studentsRefresh="this.getStudents()"
       />
     </div>
     <div class="flex flex-col" v-else>
       <span v-for="student in this.students" :key="student.id" class="w-full">
-        <StudentsItem :data="student" v-if="student.id == this.$route.params.id" />
+        <StudentsItem
+          :data="student"
+          :groupes="this.groupes"
+          :formStudy="this.formStudy"
+          v-if="student.id == this.$route.params.id"
+        />
       </span>
+      <a href="`/students/${this.id}`">{{ this.id }}</a>
     </div>
     <div
       v-if="this.newStudent"
@@ -98,6 +231,8 @@ export default {
             <div class="sm:flex sm:items-start">
               <StudentsItem
                 :data="{}"
+                :groupes="this.groupes"
+                :formStudy="this.formStudy"
                 :popup="1"
                 @modalClose="this.modalClose()"
                 @studentsRefresh="this.getStudents()"

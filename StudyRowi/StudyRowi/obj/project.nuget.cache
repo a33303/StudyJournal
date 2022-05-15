@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bkPxNNlwTeocs0rUtBOdGerXAqfiGI+YuU/kGkLxIxjyq1jyGmsOYsNZ6yovJKBdSPFRC8VnczdTBEZ7Ddb+Gw==",
+  "dgSpecHash": "zHN9c5n/ClrbhfSmXYuJtcXHbENPRfcLZMbLAvhHF6S2no/i4RX1zFmI44rhbzgIJzCM6Jvny80ljuZ3lgQeIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\a3330\\source\\repos\\StudyRowi\\Studyrowi\\StudyRowi.csproj",
+  "projectFilePath": "C:\\Users\\a3330\\source\\repos\\StudyRowi\\studyrowi\\StudyRowi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a3330\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\a3330\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

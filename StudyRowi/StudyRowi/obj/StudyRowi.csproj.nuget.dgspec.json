@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a3330\\source\\repos\\StudyRowi\\Studyrowi\\StudyRowi.csproj": {}
+    "C:\\Users\\a3330\\source\\repos\\StudyRowi\\studyrowi\\StudyRowi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a3330\\source\\repos\\StudyRowi\\Studyrowi\\StudyRowi.csproj": {
+    "C:\\Users\\a3330\\source\\repos\\StudyRowi\\studyrowi\\StudyRowi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a3330\\source\\repos\\StudyRowi\\Studyrowi\\StudyRowi.csproj",
+        "projectUniqueName": "C:\\Users\\a3330\\source\\repos\\StudyRowi\\studyrowi\\StudyRowi.csproj",
         "projectName": "StudyRowi",
-        "projectPath": "C:\\Users\\a3330\\source\\repos\\StudyRowi\\Studyrowi\\StudyRowi.csproj",
+        "projectPath": "C:\\Users\\a3330\\source\\repos\\StudyRowi\\studyrowi\\StudyRowi.csproj",
         "packagesPath": "C:\\Users\\a3330\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a3330\\source\\repos\\StudyRowi\\Studyrowi\\obj\\",
+        "outputPath": "C:\\Users\\a3330\\source\\repos\\StudyRowi\\studyrowi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\a3330\\AppData\\Roaming\\NuGet\\NuGet.Config",

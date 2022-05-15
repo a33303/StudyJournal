@@ -36,7 +36,7 @@ namespace StudyRowi.Controllers
         {
             _context.StudyJournals.Add(studyJournal);
             _context.SaveChanges();
-            return CreatedAtAction("GetStudents", new StudyJournal { Id = studyJournal.Id }, studyJournal);
+            return CreatedAtAction(nameof(this.GetStudyJournals), new StudyJournal { Id = studyJournal.Id }, studyJournal);
         }
 
          // Put: /api/studyJournals/n

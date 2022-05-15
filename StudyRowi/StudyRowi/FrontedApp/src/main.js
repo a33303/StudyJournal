@@ -15,7 +15,7 @@ import CommunityIcon from "./components/icons/IconCommunity.vue";
 import SupportIcon from "./components/icons/IconSupport.vue";
 
 const app = createApp(App);
-
+//var cors = require('cors')
 app.use(router);
 app.use(Toaster, {
   // One of the options
@@ -32,5 +32,5 @@ app.component("ToolingIcon", ToolingIcon);
 app.component("EcosystemIcon", EcosystemIcon);
 app.component("CommunityIcon", CommunityIcon);
 app.component("SupportIcon", SupportIcon);
-
+//app.use(cors()) // Use this after the variable declaration
 app.mount("#app");

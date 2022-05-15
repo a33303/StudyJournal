@@ -37,7 +37,7 @@ namespace StudyRowi.Controllers
         {
             _context.Groupes.Add(groupe);
             _context.SaveChanges();
-            return CreatedAtAction("GetGroupe", new Groupe { Id = groupe.Id}, groupe);
+            return CreatedAtAction(nameof(this.GetGroupeItem), new Groupe { Id = groupe.Id}, groupe);
           // return 123;
         }
 

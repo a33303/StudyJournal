@@ -52,7 +52,7 @@ export default {
   mounted() {
     this.popupCreateItem = this.popup ?? 0;
     this.isSingleItem = this.$route.params.id ?? false;
-    this.id = this.data.id ?? 0;;
+    this.id = this.data.id ?? 0;
     this.studyPlan = this.data.studyPlan ?? 0;
     this.studentId = this.data.studentId ?? 0;
     this.groupe = this.data.groupe ?? 0;
@@ -64,9 +64,9 @@ export default {
 </script>
 
 <template>
- <div>
-   {{ this.StudyJournals.Name }}
- </div>
+  <div>
+    {{ this.StudyJournals.Name }}
+  </div>
 </template>
 
 <style scoped></style>
