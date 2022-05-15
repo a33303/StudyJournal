@@ -1,0 +1,180 @@
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/appsettings.Development.json
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/appsettings.json
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/WebApp_c
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/WebApp_c.deps.json
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/WebApp_c.runtimeconfig.json
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/WebApp_c.runtimeconfig.dev.json
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/WebApp_c.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/ref/WebApp_c.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/WebApp_c.pdb
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/WebApp_c.csproj.AssemblyReference.cache
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/WebApp_c.GeneratedMSBuildEditorConfig.editorconfig
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/WebApp_c.AssemblyInfoInputs.cache
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/WebApp_c.AssemblyInfo.cs
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/WebApp_c.csproj.CoreCompileInputs.cache
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/WebApp_c.MvcApplicationPartsAssemblyInfo.cache
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/staticwebassets/WebApp_c.StaticWebAssets.Manifest.cache
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/staticwebassets/WebApp_c.StaticWebAssets.xml
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/scopedcss/bundle/WebApp_c.styles.css
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/WebApp_c.RazorTargetAssemblyInfo.cache
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/WebApp_c.dll
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/ref/WebApp_c.dll
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/WebApp_c.pdb
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/WebApp_c.genruntimeconfig.cache
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Humanizer.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Microsoft.Identity.Client.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/Newtonsoft.Json.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/System.Runtime.Caching.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/artemsh/www/WebApp_c/obj/Debug/net5.0/WebApp_c.csproj.CopyComplete
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/frontend-rowi-hw/package-lock.json
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/frontend-rowi-hw/package.json
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/package-lock.json
+/home/artemsh/www/WebApp_c/bin/Debug/net5.0/package.json
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/appsettings.Development.json
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/appsettings.json
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/frontend-rowi-hw/package-lock.json
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/frontend-rowi-hw/package.json
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/package-lock.json
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/package.json
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/WebApp_c
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/WebApp_c.deps.json
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/WebApp_c.runtimeconfig.json
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/WebApp_c.runtimeconfig.dev.json
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/WebApp_c.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/ref/WebApp_c.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/WebApp_c.pdb
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Humanizer.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Microsoft.Identity.Client.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/Newtonsoft.Json.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/System.Runtime.Caching.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/home/artemsh/www/WebApp_c (copy)/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/WebApp_c.csproj.AssemblyReference.cache
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/WebApp_c.GeneratedMSBuildEditorConfig.editorconfig
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/WebApp_c.AssemblyInfoInputs.cache
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/WebApp_c.AssemblyInfo.cs
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/WebApp_c.csproj.CoreCompileInputs.cache
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/WebApp_c.MvcApplicationPartsAssemblyInfo.cache
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/staticwebassets/WebApp_c.StaticWebAssets.Manifest.cache
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/staticwebassets/WebApp_c.StaticWebAssets.xml
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/scopedcss/bundle/WebApp_c.styles.css
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/WebApp_c.RazorTargetAssemblyInfo.cache
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/WebApp_c.csproj.CopyComplete
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/WebApp_c.dll
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/ref/WebApp_c.dll
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/WebApp_c.pdb
+/home/artemsh/www/WebApp_c (copy)/obj/Debug/net5.0/WebApp_c.genruntimeconfig.cache
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\WebApp_c.csproj.AssemblyReference.cache
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\WebApp_c.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\WebApp_c.AssemblyInfoInputs.cache
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\WebApp_c.AssemblyInfo.cs
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\WebApp_c.csproj.CoreCompileInputs.cache
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\WebApp_c.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\WebApp_c.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\WebApp_c.pdb
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\appsettings.json
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\frontend-rowi-hw\package-lock.json
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\frontend-rowi-hw\package.json
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\package-lock.json
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\package.json
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\WebApp_c.StaticWebAssets.xml
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\WebApp_c.exe
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\WebApp_c.deps.json
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\WebApp_c.runtimeconfig.json
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\WebApp_c.runtimeconfig.dev.json
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\WebApp_c.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\WebApp_c.pdb
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Humanizer.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\scopedcss\bundle\WebApp_c.styles.css
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\staticwebassets\WebApp_c.StaticWebAssets.Manifest.cache
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\WebApp_c.RazorTargetAssemblyInfo.cache
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\WebApp_c.csproj.CopyComplete
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\refint\WebApp_c.dll
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\WebApp_c.genruntimeconfig.cache
+C:\Users\a3330\source\repos\rowi_boot_webAppC\obj\Debug\net5.0\ref\WebApp_c.dll

@@ -24,8 +24,8 @@ namespace Hogwards.Spa
         {
 
             services.AddControllersWithViews();
-            //services.AddDbContext<StudyContext>(options =>
-              // options.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Hogwards;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"));
+            services.AddDbContext<StudyContext>(options =>
+               options.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Hogwards;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"));
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>

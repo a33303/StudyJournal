@@ -1,0 +1,33 @@
+{
+  "name": "frontend-rowi-hw",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@meforma/vue-toaster": "^1.3.0",
+    "@vuepic/vue-datepicker": "^3.1.0",
+    "axios": "^0.26.1",
+    "bootstrap-vue": "^2.22.0",
+    "cors": "^2.8.5",
+    "tailwindcss": "^3.0.24",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.14",
+    "vue-toastr": "^2.1.2"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "autoprefixer": "^10.4.4",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "postcss": "^8.4.12",
+    "prettier": "^2.5.1",
+    "vite": "^2.9.1"
+  }
+}
